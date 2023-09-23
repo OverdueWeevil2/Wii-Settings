@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wii Settings HTML Files</title>
+<style>select,option{font-size:16px;}input{font-size:20px;}html{text-align:center;}fieldset{border:none;}</style>
+<script>window.onpageshow=function(){settings();};</script>
+</head>
+<body>
+<select onchange="settings();" id="ver">
+<option>2.0</option>
+<option>2.1</option>
+<option>2.2</option>
+<option>3.0</option>
+<option>3.1</option>
+<option>4.3</option>
+</select>
+<select onchange="settings();" id="reg">
+<option>U</option>
+<option>J</option>
+<option>E</option>
+<option>K</option>
+</select>
+<fieldset id="form" disabled>
+<form id="letsgo">
+<input type="submit" value="Go to Settings &gt;">
+</form>
+</fieldset>
+<script>
+var ver = document.getElementById('ver');
+var reg = document.getElementById('reg');
+var form = document.getElementById('form');
+var letsgo = document.getElementById('letsgo');
+var regUrl = '';
+var verUrl = '';
+function settings() {
+verUrl = ver.value;
+if (reg.value == 'E') {
+regUrl = 'EU/EU/ENG';
+} else if (reg.value == 'U') {
+regUrl = 'FIX/US/ENG';
+} else if (reg.value == 'J') {
+regUrl = 'JP/JP/JPN';
+} else if (reg.value == 'K') {
+regUrl = 'KR/KR/KOR';
+}
+update();
+}
+function update() {
+letsgo.action = verUrl + '/' + regUrl + '/index01.html';
+form.disabled = false;
+}
+</script>
+</body>
+</html>
