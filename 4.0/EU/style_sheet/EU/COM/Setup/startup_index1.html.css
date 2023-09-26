@@ -1,0 +1,39 @@
+@import url("../../US/ENG/style_sheet/Under.css");
+body {
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../COMMON/BG/BG_common2.gif);
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+#List04 {
+	position:absolute;
+	left:104px;
+	top:294px;
+	width:400px;
+	height:60px;
+	z-index:9;
+}
+.style2 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 18px;
+	color: #666666;
+	line-height: 38px;
+}
+.style4 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 60px;
+	color: #FFFFFF;
+}
+.style5 {color: #999999}
+.style6 {font-family: "Wii NTLG PGothic JPN Regular"}
+

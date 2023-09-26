@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wii Settings HTML Files</title>
 <style>select,option{font-size:16px;}input{font-size:20px;}html{text-align:center;}fieldset{border:none;}</style>
-<script>window.onpageshow=function(){settings();};</script>
+<script>window.onpageshow=function(){settings();};window.onload=window.onpageshow;</script>
 </head>
 <body>
 <select onchange="settings();" id="ver">
@@ -14,6 +14,13 @@
 <option>2.2</option>
 <option>3.0</option>
 <option>3.1</option>
+<option>3.2</option>
+<option>3.3</option>
+<option>3.4</option>
+<option>3.5</option>
+<option>4.0</option>
+<option>4.1</option>
+<option>4.2</option>
 <option>4.3</option>
 </select>
 <select onchange="settings();" id="reg">

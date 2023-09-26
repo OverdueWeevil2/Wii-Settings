@@ -1,0 +1,279 @@
+@import url("../../../Under.css");
+body {
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 12px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../COMMON/BG/BG_common.gif);
+}
+
+#Label0 {
+	position:absolute;
+	left:5px;
+	top:74px;
+	width:600px;
+	height:120px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #ffffff;
+	text-align: center;
+}
+
+#List01Btn {
+	position:absolute;
+	left:87px;
+	top:124px;
+	width:432px;
+	height:56px;
+	background-image: url(../../../../COMMON/BTN/Btn_List06.gif);
+	background-repeat: no-repeat;
+	background-position: top 0%;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: normal;
+	line-height:220%;
+}
+#List02Btn {
+	position:absolute;
+	left:87px;
+	top:180px;
+	width:432px;
+	height:56px;
+	background-image: url(../../../../COMMON/BTN/Btn_List06.gif);
+	background-repeat: no-repeat;
+	background-position: top 0%;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: normal;
+	line-height:220%;
+}
+#List03Btn {
+	position:absolute;
+	left:87px;
+	top:236px;
+	width:432px;
+	height:56px;
+	background-image: url(../../../../COMMON/BTN/Btn_List06.gif);
+	background-repeat: no-repeat;
+	background-position: top 0%;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: normal;
+	line-height:220%;
+}
+#List04Btn {
+	position:absolute;
+	left:87px;
+	top:292px;
+	width:432px;
+	height:56px;
+	background-image: url(../../../../COMMON/BTN/Btn_List06.gif);
+	background-repeat: no-repeat;
+	background-position: top 0%;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: normal;
+	line-height:220%;
+}
+
+#List01 {
+	position:absolute;
+	left:88px;
+	top:124px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List02 {
+	position:absolute;
+	left:88px;
+	top:180px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List03 {
+	position:absolute;
+	left:88px;
+	top:236px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List04 {
+	position:absolute;
+	left:88px;
+	top:292px;
+	width:432px;
+	height:56px;
+	z-index:2;
+}
+#List01Check {
+	position:absolute;
+	left:79px;
+	top:120px;
+	width:24px;
+	height:64px;
+	z-index:1;
+	visibility: hidden;
+}
+#List01CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+}
+#List02Check {
+	position:absolute;
+	left:79px;
+	top:176px;
+	width:24px;
+	height:64px;
+	z-index:1;
+	visibility: hidden;
+}
+#List02CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+}
+#List03Check {
+	position:absolute;
+	left:79px;
+	top:232px;
+	width:24px;
+	height:64px;
+	z-index:1;
+	visibility: hidden;
+}
+#List03CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+	z-index:1;
+}
+#List04Check {
+	position:absolute;
+	left:79px;
+	top:288px;
+	width:24px;
+	height:64px;
+	z-index:8;
+	visibility: hidden;
+}
+#List04CheckR {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:24px;
+	height:64px;
+	z-index:13;
+}
+#ListUP {
+	position:absolute;
+	left:528px;
+	top:124px;
+	width:72px;
+	height:72px;
+	z-index:1;
+}
+#ListDW {
+	position:absolute;
+	left:528px;
+	top:274px;
+	width:72px;
+	height:72px;
+	z-index:2;
+}
+
+#UnderR {
+	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+}
+#UnderL {
+	position:absolute;
+	left:28px;
+	top:371px;
+	width:272px;
+	height:72px;
+}
+
+#UnderRBtn {
+	position:absolute;
+	left:308px;
+	top:372px;
+	width:272px;
+	height:72px;
+	background-image: url(../../../../COMMON/BTN/Under.gif);
+	background-repeat: no-repeat;
+	background-position: top 0%;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: normal;
+	line-height:310%;
+}
+#UnderLBtn {
+	position:absolute;
+	left:28px;
+	top:372px;
+	width:272px;
+	height:72px;
+	background-image: url(../../../../COMMON/BTN/Under.gif);
+	background-repeat: no-repeat;
+	background-position: top 0%;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: normal;
+	line-height:310%;
+}
+
+#BnrWhite {
+	position:absolute;
+	left:56px;
+	top:27px;
+	width:408px;
+	height:36px;
+	background-image: url(../../../../COMMON/BG/Tab_White_L.gif);
+}
+#BnrName {
+	position:absolute;
+	left:8px;
+	top:0px;
+	width:384px;
+	height:36px;
+}
+#BnrGray {
+	position:absolute;
+	left:24px;
+	top:35px;
+	width:32px;
+	height:26px;
+	background-image: url(../../../../COMMON/BG/Tab_gray.gif);
+}

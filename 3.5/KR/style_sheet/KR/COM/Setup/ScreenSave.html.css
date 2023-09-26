@@ -1,0 +1,75 @@
+@import url("../../../Under.css");
+body {
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../../../COMMON/BG/BG_common.gif);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: -60px;
+	text-align: right;
+}
+#UnderR {
+	position:absolute;
+	left:308px;
+	top:371px;
+	width:272px;
+	height:72px;
+	
+}
+#myUnderRBtn {
+    position:absolute;
+    top:371px;
+    font-size:28px;
+	line-height: 255%;
+}
+#BnrName {
+	position:absolute;
+	left:8px;
+	top:3px;
+	width:384px;
+	height:36px;
+}
+#BnrWhite {
+	position:absolute;
+	left:24px;
+	top:27px;
+	width:408px;
+	height:36px;
+	background-image: url(../../../../COMMON/BG/Tab_White_L.gif);
+}
+
+#Message {
+	position:absolute;
+	left:6px;
+	top:156px;
+	width:600px;
+	height:72px;
+	font-family: "Wii NTLG PGothic JPN Regular", "Wii NTLG PGothic Latin Regular";
+	font-size: 26px;
+	line-height: 32px;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: normal;
+}
+.style2 {
+	color: #FFFFFF;
+}
+.style5 {color: #FFFFFF}
